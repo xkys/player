@@ -2852,7 +2852,7 @@ ul::-webkit-scrollbar-track {
 
 .speed-stting {
 	position: absolute;
-	left: 0px;
+	left: -11px;
 	bottom: 45px;
 	-webkit-transform: scale(0);
 	transform: scale(0);
