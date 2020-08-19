@@ -1351,7 +1351,7 @@ f .yzmplayer.yzmplayer-mobile .yzmplayer-controller .yzmplayer-icons .yzmplayer-
 	position: absolute;
 	background: rgba(28, 28, 28, .9);
 	bottom: 41px;
-	left: -65px;
+	left: 0;
 	-webkit-box-shadow: 0 0 25px rgba(0, 0, 0, .3);
 	box-shadow: 0 0 25px rgba(0, 0, 0, .3);
 	border-radius: 4px;
@@ -2785,7 +2785,7 @@ ul::-webkit-scrollbar-track {
   width: 320px;
     height: 184px;
     z-index: 3;
-    background: url(https://www.helloimg.com/images/2020/08/19/downloadb9ea86a101b1c6f6.png) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/xkys/player@15.0/img/bloading.png) no-repeat;
     -webkit-transform: scale(.5);
     transform: scale(.5);
     -webkit-animation: iconAnimation .94s steps(1) infinite;
