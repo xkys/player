@@ -2646,37 +2646,55 @@ ul::-webkit-scrollbar-track {
 }
 
 .yzmplayer-bezel .diplayer-loading-icon {
-	display: none;
-	position: absolute;
-	bottom: 55px;
-	right: 45px;
-	margin: -18px 0 0 -18px;
-	pointer-events: none;
-	border: 0;
-	border-color: unset;
-	opacity: .8;
-	border-radius: 0;
-	width: 70px;
-	height: 100px;
-	-moz-animation: spinoffPulse .9s infinite linear;
-	-webkit-animation: unset;
-	background-size: 100%;
-	background-image: url(https://cdn.jsdelivr.net/gh/Fog-Forest/Picture-Bed/IMG/20200519224135.gif);
-	top: 50%;
-	left: 50%;
-	height: 32px;
-	width: 32px;
-	background-image: url(https://cdn.jsdelivr.net/gh/Fog-Forest/Picture-Bed/IMG/20200519224236.png);
-	-webkit-animation: vod_loading 1s steps(30) infinite;
-	width: 54px;
-	height: 20px;
-	margin: -18px 0 0 -18px;
-	background-size: 54px 600px;
-	animation: vod_loading 1s steps(30) infinite;
-	opacity: 1;
-	background-image: url(https://cdn.jsdelivr.net/gh/Fog-Forest/Picture-Bed/IMG/20200524205221.png);
+    width: 216px;
+    height: 216px;
+    z-index: 3;
+    background: url(https://cdn.jsdelivr.net/gh/xkys/player@16.0/img/loading2.png) no-repeat;
+    transform: scale(.4);
+    animation: loadingdh 0.94s steps(1) infinite;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
+@-webkit-keyframes loadingdh {
+0% {
+    background-position: 0 0;
+}
+
+25% {
+    background-position: -216px 0;
+}
+50% {
+    background-position: -432px 0;
+}
+75% {
+    background-position: -648px 0;
+}
+100% {
+    background-position: -864px 0;
+}
+}@keyframes loadingdh {
+0% {
+    background-position: 0 0;
+}
+
+25% {
+    background-position: -216px 0;
+}
+50% {
+    background-position: -432px 0;
+}
+75% {
+    background-position: -648px 0;
+}
+100% {
+    background-position: -864px 0;
+}
+}
 .yzmplayer:-webkit-full-screen .yzmplayer-fulloff-icon {
 	display: inline !important;
 }
