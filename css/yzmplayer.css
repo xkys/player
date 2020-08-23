@@ -1065,6 +1065,17 @@ f .yzmplayer.yzmplayer-mobile .yzmplayer-controller .yzmplayer-icons .yzmplayer-
 	animation: my-face 5s infinite ease-in-out
 }
 
+.xkystext {
+	position: absolute;
+	top: 50%;
+	margin-top: -7px;
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	line-height: 14px;
+	-webkit-animation: my-face 5s infinite ease-in-out;
+	animation: my-face 5s infinite ease-in-out
+}
 .yzmplayer-bezel .diplayer-loading-icon {
 	display: none;
 	position: absolute;
@@ -2649,7 +2660,7 @@ ul::-webkit-scrollbar-track {
     width: 216px;
     height: 216px;
     z-index: 3;
-    background: url(https://cdn.jsdelivr.net/gh/xkys/player@16.0/img/loading2.png) no-repeat;
+    background: url(https://www.helloimg.com/images/2020/08/22/-1dbaf5aae36c9a630.png) no-repeat;
     transform: scale(.4);
     animation: loadingdh 0.94s steps(1) infinite;
     position: absolute;
@@ -2798,12 +2809,26 @@ ul::-webkit-scrollbar-track {
 	float: left;
 	color:snow;
 }
+.loading_backbox {
+    z-index: 1;
+    background: url(https://api.r10086.com/P站系列1.php) no-repeat;
+  display: block;
+    width: 110%;
+    height: 110%;
+    position: absolute;
+    left: -5%;
+    top: -5%;
+    background-size: cover;
+    background-position: 50%;
+    filter: blur(15px);
+    
+}
 
 .loading .pic {
   width: 320px;
     height: 184px;
     z-index: 3;
-    background: url(https://cdn.jsdelivr.net/gh/xkys/player@15.0/img/bloading.png) no-repeat;
+    background: url(https://www.helloimg.com/images/2020/08/20/d5602ba7b20e4b398bb4484794e2a8c10ff1973fdba213c0.png) no-repeat;
     -webkit-transform: scale(.5);
     transform: scale(.5);
     -webkit-animation: iconAnimation .94s steps(1) infinite;
