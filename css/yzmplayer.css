@@ -2809,20 +2809,7 @@ ul::-webkit-scrollbar-track {
 	float: left;
 	color:snow;
 }
-.loading_backbox {
-    z-index: 1;
-    background: url(https://api.ixiaowai.cn/api/api.php) no-repeat;
-  display: block;
-    width: 110%;
-    height: 110%;
-    position: absolute;
-    left: -5%;
-    top: -5%;
-    background-size: cover;
-    background-position: 50%;
-    filter: blur(15px);
-    
-}
+
 
 .loading .pic {
   width: 320px;
