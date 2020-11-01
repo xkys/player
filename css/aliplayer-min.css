@@ -1,27 +1,9 @@
-body {
-	overflow: hidden;
-	margin: 0px;
-}
-
 .prism-player .prism-big-play-btn {
-	background: url(https://cdn.jsdelivr.net/gh/xkys/player@30.0/img/bigplay.png) no-repeat;
-	background-size: contain;
-	width: 64px;
-	height: 64px
+
 }
 
 .prism-player .prism-big-play-btn .outter {
-	opacity: 0;
-	width: 64px;
-	height: 64px;
-	position: absolute;
-	box-sizing: border-box;
-	top: 0;
-	left: 0;
-	background: url(https://cdn.jsdelivr.net/gh/xkys/player@30.0/img/bigpause.png) no-repeat;
-	background-size: contain;
-	width: 64px;
-	height: 64px;
+
 }
 
 .prism-player .prism-big-play-btn:hover {
@@ -29,10 +11,9 @@ body {
 }
 
 .prism-player .prism-play-btn {
-	margin-top: 15px!important;
-	width: 20px;
-	height: 20px;
-	background: url(https://cdn.jsdelivr.net/gh/xkys/player@30.0/img/smallplay.png) no-repeat;
+	width: 24px;
+	height: 24px;
+	background: url(./img/smallplay.png) no-repeat;
 	background-size: contain
 }
 
@@ -54,7 +35,7 @@ body {
 }
 
 .prism-player .prism-play-btn.playing {
-	background: url(https://cdn.jsdelivr.net/gh/xkys/player@30.0/img/smallpause.png) no-repeat;
+	background: url(./img/smallpause.png) no-repeat;
 	background-size: contain
 }
 
@@ -63,10 +44,9 @@ body {
 }
 
 .prism-player .prism-fullscreen-btn {
-	margin-right: 20px!important;
-	width: 20px;
-	height: 20px;
-	background: url(https://cdn.jsdelivr.net/gh/xkys/player@30.0/img/fullscreen.png) no-repeat;
+	width: 24px;
+	height: 24px;
+	background: url(./img/fullscreen.png) no-repeat;
 	background-size: contain
 }
 
@@ -75,7 +55,7 @@ body {
 }
 
 .prism-player .prism-fullscreen-btn.fullscreen {
-	background: url(https://cdn.jsdelivr.net/gh/xkys/player@30.0/img/smallscreen.png) no-repeat;
+	background: url(./img/smallscreen.png) no-repeat;
 	background-size: contain
 }
 
@@ -88,19 +68,17 @@ body {
 }
 
 .prism-player .prism-volume {
-	margin-right: 15px!important;
 	position: relative
 }
 
 .prism-player .prism-volume .volume-icon {
-	width: 24px;
-	height: 24px;
-	background: url(https://cdn.jsdelivr.net/gh/xkys/player@30.0/img/volume.png);
+	width: 28px;
+	height: 28px;
+	background: url(./img/volume.png);
 	background-size: contain
 }
 
 .prism-player .prism-volume .volume-icon .long-horizontal {
-	display: none;
 	width: 3px;
 	background: #ebecec;
 	height: 18px;
@@ -112,7 +90,6 @@ body {
 }
 
 .prism-player .prism-volume .volume-icon .short-horizontal {
-	display: none;
 	width: 3px;
 	background: #ebecec;
 	height: 8px;
@@ -160,23 +137,23 @@ body {
 .prism-player .prism-volume-control .volume-control-icon {
 	width: 32px;
 	height: 32px;
-	background: url(https://cdn.jsdelivr.net/gh/xkys/player@30.0/img/unmutevolume.png) no-repeat;
+	background: url(./img/unmutevolume.png) no-repeat;
 	background-size: contain
 }
 
 .prism-player .prism-volume-control .volume-control-icon:hover {
 	cursor: pointer;
-	background: url(https://cdn.jsdelivr.net/gh/xkys/player@30.0/img/volumehover.png) no-repeat;
+	background: url(./img/volumehover.png) no-repeat;
 	background-size: contain
 }
 
 .prism-player .prism-volume-control .volume-control-icon.mute {
-	background: url(https://cdn.jsdelivr.net/gh/xkys/player@30.0/img/volumemute.png) no-repeat;
+	background: url(./img/volumemute.png) no-repeat;
 	background-size: contain
 }
 
 .prism-player .prism-volume-control .volume-control-icon.mute:hover {
-	background: url(https://cdn.jsdelivr.net/gh/xkys/player@30.0/img/volumemutehover.png) no-repeat;
+	background: url(./img/volumemutehover.png) no-repeat;
 	background-size: contain;
 	cursor: pointer
 }
@@ -240,12 +217,12 @@ body {
 }
 
 .prism-player .prism-play-animation {
-	background: url(https://cdn.jsdelivr.net/gh/xkys/player@30.0/img/playanimation.png) no-repeat;
+	background: url(./img/playanimation.png) no-repeat;
 	background-size: contain
 }
 
 .prism-player .prism-pause-animation {
-	background: url(https://cdn.jsdelivr.net/gh/xkys/player@30.0/img/pauseanimation.png) no-repeat;
+	background: url(./img/pauseanimation.png) no-repeat;
 	background-size: contain
 }
 
@@ -451,7 +428,6 @@ body {
 }
 
 .prism-player video {
-	background-color: #000;
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -485,12 +461,7 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0;
-	z-index: 1;
-	filter: blur(25px);
-	-webkit-filter: blur(25px);
-	-moz-filter: blur(25px);
-	-ms-filter: blur(25px);
-	-o-filter: blur(25px);
+	z-index: 11
 }
 
 .prism-player .prism-ErrorMessage {
@@ -579,25 +550,20 @@ body {
 }
 
 .prism-player .prism-big-play-btn {
-	bottom: 60px!important;
-	right: 30px!important;
 	display: none;
 	z-index: 1000
 }
 
 .prism-player .prism-controlbar {
-	background: linear-gradient(transparent,rgba(0, 0, 0, 0) 20%,rgba(0, 0, 0, 0.03) 35%,rgba(0, 0, 0, 0.15) 65%,rgba(0, 0, 0, 0.22));
-	right: 0px;
 	width: 100%;
 	height: 44px;
 	position: relative;
-	z-index: 12;
-	font-size: 14px;
-/* display: block!important; */
+	z-index: 10;
+	font-size: 14px
 }
 
 .prism-player .prism-controlbar .prism-controlbar-bg {
-	-background: rgba(75,75,75,.15);
+	background: rgba(75,75,75,.15);
 	width: 100%;
 	height: 40px;
 	position: absolute;
@@ -647,9 +613,8 @@ body {
 
 .prism-player .prism-liveshift-progress,.prism-player .prism-progress {
 	bottom: 40px!important;
-	width: 98%;
-	height: 2px;
-	margin-left: 1%;
+	width: 100%;
+	height: 4px;
 	background: rgba(195,197,198,.5);
 	box-shadow: inset 1px 1px 1px 0 rgba(0,0,0,.06);
 	position: relative;
@@ -690,43 +655,36 @@ body {
 
 .prism-player .prism-liveshift-progress .prism-progress-cursor,.prism-player .prism-progress .prism-progress-cursor {
 	position: absolute;
-	-border-radius: 8px;
-	top: -10px;
-	width: 22px;
-	height: 22px;
+	border-radius: 8px;
+	top: -5px;
+	width: 16px;
+	height: 16px;
 	overflow: hidden;
 	box-sizing: content-box;
-	background: url(https://cdn.jsdelivr.net/gh/xkys/player@30.0/img/dragcursorhover.png) center;
-	display: none;
-	transition: all .2s ease-in-out;
-/* -webkit-transform: scale(0); */
-	transform: scale(0);
-	display: block!important;
-	background-size: 100%;
+	background: url(./img/dragcursorhover.png) center;
+	display: none
 }
 
 .prism-player .prism-liveshift-progress .prism-progress-cursor img,.prism-player .prism-progress .prism-progress-cursor img {
-	width: 22px;
-	height: 18px;
+	width: 14px;
+	height: 14px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	-ms-transform: translate(-50%,-50%);
-	transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%)
 }
 
 .prism-player .prism-liveshift-progress .cursor-hover,.prism-player .prism-progress .cursor-hover {
-	-border-radius: 9px;
-	width: 22px;
+	border-radius: 9px;
+	width: 18px;
 	height: 18px;
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	top: -8px!important;
+	top: -5px!important
 }
 
 .prism-player .prism-liveshift-progress .cursor-hover img,.prism-player .prism-progress .cursor-hover img {
-	width: 22px;
-	height: 18px;
+	width: 16px;
+	height: 16px
 }
 
 .prism-player .prism-liveshift-progress .prism-progress-marker,.prism-player .prism-progress .prism-progress-marker {
@@ -745,8 +703,8 @@ body {
 
 .prism-player .prism-progress-hover {
 	cursor: pointer;
-	height: 4px;
-	transition: all .2s ease-in-out;
+	height: 6px;
+	transition: height .1s
 }
 
 .prism-player .prism-progress-hover .prism-marker-dot {
@@ -808,18 +766,23 @@ body {
 	font-size: 12px
 }
 
+.prism-player .prism-loading {
+	width: 55px;
+	height: 55px;
+	z-index: 10
+}
+
 .prism-player .prism-loading .circle {
-/* background-color:rgba(0,0,0,0); *//* border:5px solid; *//* border-color:rgba(251, 114, 153, 0.27058823529411763) rgba(0,193,222,.5) rgba(251, 116, 155, 0.54) rgba(0,193,222,.1); */
-	opacity: .8;
-/* border-radius:50px; */
-	width: 100px;
-	height: 150px;
+	background-color: rgba(0,0,0,0);
+	border: 5px solid;
+	border-color: rgba(0,193,222,.2) rgba(0,193,222,.5) rgba(0,193,222,.7) rgba(0,193,222,.1);
+	opacity: .9;
+	border-radius: 50px;
+	width: 45px;
+	height: 45px;
 	margin: 0 auto;
 	-moz-animation: spinoffPulse .9s infinite linear;
-/* -webkit-animation:spinoffPulse .9s infinite linear */
-
-	background: url(https://www.helloimg.com/images/2020/08/22/bilipay_tv_loading_01215100039c8e0c8f.gif) no-repeat;
-	background-size: 100%;
+	-webkit-animation: spinoffPulse .9s infinite linear
 }
 
 .prism-player .prism-hide {
@@ -829,7 +792,7 @@ body {
 .prism-player .prism-snapshot-btn {
 	width: 32px;
 	height: 32px;
-	background: url(https://cdn.jsdelivr.net/gh/xkys/player@30.0/img/snapshot.png) no-repeat;
+	background: url(./img/snapshot.png) no-repeat;
 	background-size: contain
 }
 
@@ -925,10 +888,9 @@ body {
 }
 
 .prism-player .prism-cc-btn {
-	display: none;
 	height: 24px;
 	width: 24px;
-	background: url(https://cdn.jsdelivr.net/gh/xkys/player@30.0/img/cc.png) center no-repeat;
+	background: url(./img/cc.png) center no-repeat;
 	background-size: contain
 }
 
@@ -941,10 +903,9 @@ body {
 }
 
 .prism-player .prism-setting-btn {
-	-margin-right: 6px!important;
-	height: 21px;
-	width: 21px;
-	background: url(https://cdn.jsdelivr.net/gh/xkys/player@30.0/img/setting.png) center no-repeat;
+	height: 24px;
+	width: 24px;
+	background: url(./img/setting.png) center no-repeat;
 	background-size: contain
 }
 
@@ -1157,6 +1118,11 @@ body {
 }
 
 :-webkit-full-screen {
+	width: 100%!important;
+	height: 100%!important
+}
+
+:-moz-full-screen {
 	width: 100%!important;
 	height: 100%!important
 }
@@ -1528,90 +1494,10 @@ video::cue {
 	color: gray
 }
 
-.memory-play-wrap .memory-play {
-	padding: 12px 16px!important;
-	background-color: rgba(25, 25, 25, 0.21)!important;
-	border-radius: 4px;
-	color: #fff;
-	font-size: 14px;
-	user-select: none;
-}
-
-.memory-play-wrap {
+.center {
 	position: absolute;
-	left: 5px!important;
-	right: auto!important;
-	bottom: 50px!important;
-}
-
-@media (min-width: 300px) {
-	.prism-player .prism-loading .circle {
-     /* background-color:rgba(0,0,0,0); *//* border:5px solid; *//* border-color:rgba(251, 114, 153, 0.27058823529411763) rgba(0,193,222,.5) rgba(251, 116, 155, 0.54) rgba(0,193,222,.1); */
-		opacity: .9;
-     /* border-radius:50px; */
-		width: 50px;
-		height: 75px;
-		margin: 0 auto;
-		-moz-animation: spinoffPulse .9s infinite linear;
-/* -webkit-animation:spinoffPulse .9s infinite linear; *//* background-image: none; */
-	}
-
-	.prism-player .prism-loading {
-		width: 15px;
-		height: 75px;
-		z-index: 10;
-	}
-
-	.center {
-		position: absolute;
-		top: 50%;
-		-ms-transform: translate(-50%,-50%);
-		transform: translate(-50%,-50%);
-		right: 50%;
-	}
-
-	.prism-player .prism-big-play-btn {
-		bottom: 45px!important;
-		right: 30px!important;
-		display: none;
-		z-index: 1000;
-	}
-@	media (min-width: 768px) {
-		.center{position: absolute;
-		top: 78%;
-		-ms-transform: translate(-50%,-50%);
-		transform: translate(-50%,-50%);
-     /* left: 0; */
-		right: 0%;
-	}
-
-	.prism-player .prism-loading .circle {
-	 /* background-color:rgba(0,0,0,0); */
-		border: 0;
-		border-color: unset;
-		opacity: .8;
-		border-radius: 0;
-		width: 90px;
-		height: 130px;
-		margin: 0 auto;
-		-moz-animation: spinoffPulse .9s infinite linear;
-		-webkit-animation: unset;
-		background-image: url(https://ae01.alicdn.com/kf/HTB1Zzg9bvBj_uVjSZFp5jc0SXXau.gif);
-		background-size: 100%;
-	}
-
-	.prism-player .prism-loading {
-		width: 61px;
-		height: 30px;
-		z-index: 10;
-		width: 85px;
-		height: 140px;
-	}
-
-	.prism-player .prism-big-play-btn {
-		bottom: 50px!important;
-		right: 50px!important;
-		display: none;
-		z-index: 1000;
-	}
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%)
 }
